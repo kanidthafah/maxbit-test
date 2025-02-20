@@ -14,7 +14,7 @@ const ActivitiesBox: FC<ActivitiesProps> = ({ activities }) => {
       {activities.map((activity, index) => (
         <div
           key={index}
-          className="flex justify-between items-center px-4"
+          className="flex justify-between items-center px-2 xl:px-4"
         >
           <div className="flex gap-3 items-center">
             <div className="flex items-center justify-center rounded-full w-10 h-10 bg-primary">

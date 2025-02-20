@@ -74,8 +74,8 @@ export default function Page() {
 
   return (
     <div className="container flex flex-col justify-center items-center my-24 gap-4">
-      <div className="w-full flex flex-col lg:flex-row justify-between gap-8 lg:gap-4">
-        <div className="w-full lg:w-3/5 flex flex-col gap-4 lg:pe-28">
+      <div className="w-full flex flex-col lg:flex-row justify-between gap-8 xl:gap-4">
+        <div className="w-full lg:w-3/5 flex flex-col gap-4 xl:pe-28">
           <motion.h2
             initial={{ y: "-20%", opacity: 0 }}
             animate={{
